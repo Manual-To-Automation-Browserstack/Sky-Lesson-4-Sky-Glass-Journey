@@ -1,12 +1,12 @@
 ![Logo](https://www.browserstack.com/images/static/header-logo.jpg)
 
-# Manual To Automation @ SKY - Lesson 3 - Page Object Model in Playwright <a href="https://nodejs.org/en/"><img src="https://raw.githubusercontent.com/github/explore/60cd2530141f67f07a947fa2d310c482e287e387/topics/playwright/playwright.png" alt="playwright" height="22" /></a>
+# Manual To Automation @ SKY - Lesson 5 - Sky Glass Configuration Automation <a href="https://nodejs.org/en/"><img src="https://raw.githubusercontent.com/github/explore/60cd2530141f67f07a947fa2d310c482e287e387/topics/playwright/playwright.png" alt="playwright" height="22" /></a>
 
 ## Introduction
 
-This example code provides the solution to the exam given at the end of the second lesson in the Manual To Automation @ SKY training series, but this time using the concept of the Page Object Model to streamline the code and make it more efficient and more in line with best practices. It is a simple Playwright application that opens a web page, opens the search hover, and performs a search.
+This example code automates the manual test case of configuring a Sky Glass TV. Only one configuration is given, but because it is written using the POM (Page Object Model), the code can be copied and pasted with only the variables that are passed needing to be changed in order to test all other combinations.
 
-We have 2 page objects for this example; Search and CookieConsent. The names are self-explanatory and our test files call the functions from these objects to perform the necessary actions. The functions are also declaratively named so it is highly readable.
+We have 2 page objects for this example; Configure and CookieConsent. The names are self-explanatory and our test files call the functions from these objects to perform the necessary actions. The functions are also declaratively named so it is highly readable.
 
 ---
 
@@ -26,11 +26,11 @@ Follow the below steps to get the code onto your local machine.
 * Go to the directory where you want to place the code using [cd](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd) for Windows, and it functions mostly the same for Mac. You just use "cd" but the folder structure on Mac is different (/Users/username/Documents instead of C:/Users/username/Documents)
 * Copy the following command into the terminal, (remember, you must have [Git](https://git-scm.com/downloads) installed)
 ```sh
-git clone https://github.com/Manual-To-Automation-Browserstack/Sky-Lesson-3-POM.git.
+git clone https://github.com/Manual-To-Automation-Browserstack/Sky-Lesson-4-Sky-Glass-Journey.git.
 ```
 * Move into the directory that you just cloned by typing
 ```sh
-cd Sky-Lesson-3-POM
+cd Sky-Lesson-4-Sky-Glass-Journey
 ```
 * When inside this directory, copy the following command and run it:
 ```sh
