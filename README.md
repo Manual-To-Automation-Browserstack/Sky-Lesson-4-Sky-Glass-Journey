@@ -41,9 +41,6 @@ npm install
 # Runs the test-pom.spec.js file
 npm run first-test
 
-# Runs the another-test-pom.spec.js file
-npm run second-test
-
 # Runs all of the files in the tests directory
 npm run all
 
