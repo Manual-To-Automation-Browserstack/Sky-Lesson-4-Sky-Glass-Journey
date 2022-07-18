@@ -1,0 +1,17 @@
+{
+  "name": "sky-lesson-4-sky-glass-journey",
+  "version": "1.0.0",
+  "description": "Manual 2 Automation - Automation of Sky manual journey",
+  "main": "index.js",
+  "scripts": {
+    "first-test": "npx playwright test tests/test-pom.spec.js",
+    "first-test-headed": "npx playwright test tests/test-pom.spec.js --headed",
+    "all": "npx playwright test",
+    "headed-all": "npx playwright test --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.22.0"
+  }
+}
